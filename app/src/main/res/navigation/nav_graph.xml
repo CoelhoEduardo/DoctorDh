@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginScreen">
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="com.example.doctordh.loginscreen.LoginScreen"
+        android:label="fragment_login_screen"
+        tools:layout="@layout/fragment_login_screen" >
+        <action
+            android:id="@+id/action_loginScreen_to_profileScreen"
+            app:destination="@id/profileScreen" />
+        <action
+            android:id="@+id/action_loginScreen_to_doctorScreen"
+            app:destination="@id/doctorScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileScreen"
+        android:name="com.example.doctordh.loginscreen.ProfileScreen"
+        android:label="fragment_profile_screen"
+        tools:layout="@layout/fragment_profile_screen" >
+        <action
+            android:id="@+id/action_profileScreen_to_doctorScreen"
+            app:destination="@id/doctorScreen" />
+    </fragment>
+    <activity
+        android:id="@+id/doctorScreen"
+        android:name="com.example.doctordh.DoctorScreen.DoctorScreen"
+        android:label="activity_doctor_screen"
+        tools:layout="@layout/activity_doctor_screen" />
+</navigation>

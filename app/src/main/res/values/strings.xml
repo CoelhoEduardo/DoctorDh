@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DoctorDh</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="WelcomeBack">Welcome Back</string>
+    <string name="text1">You can search course, apply course and find scholarship for abroad studies</string>
+    <string name="forgotpass">Forgot Password</string>
+    <string name="donthaveaccount">Don’t have an account? Join us</string>
+    <string name="login">Login</string>
+    <string name="senha">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="join_us_to_start_searching">Join us to start searching</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="forgot_pass_description">Enter your email for the verification proccesss, we will send 4 digits code to your email.</string>
+    <string name="continue_button">Continue</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_description">Set the new password for your account so you can login and access all the features.</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="new_password">New Password</string>
+    <string name="update_password">Update Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="have_an_account_log_in">Have an account? Log in</string>
+    <string name="subtitle_profile">Update your profile to connect your doctor with \n better impression.</string>
+    <string name="title_profile">Set up your profile</string>
+    <string name="location">Location</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="phone">Phone</string>
+    <string name="doctors">Doctors</string>
+    <string name="personal_information">Personal information</string>
+
+</resources>
